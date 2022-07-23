@@ -26,6 +26,10 @@ public class DesafioProdutosSite {
 					a.precoFinal.toString().replace(".", ",")+
 					" FRETE GRÁTIS!!!";
 					
-		prods.stream().filter(descontoBom).filter(freteGratis).map(descItem).forEach(System.out::println);
+		prods.stream()
+				.filter(descontoBom)
+				.filter(freteGratis)
+				.map(descItem)
+				.forEach(System.out::println);
 	}
 }
