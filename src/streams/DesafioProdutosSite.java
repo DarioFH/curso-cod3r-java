@@ -21,10 +21,10 @@ public class DesafioProdutosSite {
 		Predicate<ProdutosSiteDesafio> descontoBom = a -> a.desconto >= 30;
 		Predicate<ProdutosSiteDesafio> freteGratis = a -> a.freteGratis;
 		Function<ProdutosSiteDesafio, String> descItem = 
-					a -> "MEGA PROMO«√O: "+
-					a.nome+" - PreÁo final: R$"+
+					a -> "MEGA PROMO√á√ÉO: "+
+					a.nome+" - Pre√ßo final: R$"+
 					a.precoFinal.toString().replace(".", ",")+
-					" FRETE GR¡TIS!!!";
+					" FRETE GR√ÅTIS!!!";
 					
 		prods.stream()
 				.filter(descontoBom)

@@ -20,7 +20,7 @@ public class DesafioFilter {
 		Predicate<ProdutosDesafio> lucroAlto = a -> a.lucro > 10;
 		Predicate<ProdutosDesafio> estoqueBom = a -> a.estoque > 3;
 		Function<ProdutosDesafio, String> itemApto = a -> 
-								a.nome+" - Preço: R$"+ 
+								a.nome+" - PreÃ§o: R$"+ 
 								a.preco.toString().replace(".", ",")+ " - Porcentagem de lucro: "+
 								a.lucro+ " - Estoque: "+
 								a.estoque ;
