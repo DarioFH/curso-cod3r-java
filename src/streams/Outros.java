@@ -36,7 +36,7 @@ public class Outros {
 		alunos.stream()
 		.distinct()
 		.skip(2)
-		.takeWhile(a -> a.nota >= 7) 
+		.takeWhile(aprovado) 
 		.forEach(System.out::println);
 		
 		
