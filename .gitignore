@@ -1,2 +1,5 @@
 /.metadata/
 bin/
+/.idea
+.classpath
+.project
