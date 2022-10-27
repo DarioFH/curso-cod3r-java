@@ -15,7 +15,7 @@ public class Desafio3 {
 		if(media >= 7) {
 			System.out.println("Aprovado!");
 		}else if(media >= 4) {
-			System.out.println("Recuperação!");
+			System.out.println("RecuperaÃ§Ã£o!");
 		}else {
 			System.out.println("Reprovado!");
 		}

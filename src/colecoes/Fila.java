@@ -9,27 +9,27 @@ public class Fila {
 		Queue<String> fila = new LinkedList<String>();
 		
 		// Offer e Add -> adicionam elementos na fila
-		// DiferenÁa È o comportamento quando a fila est· cheia!
-		// Quando a fila est· cheia!
+		// Diferen√ßa e o comportamento quando a fila est√° cheia!
+		// Quando a fila est√° cheia!
 		fila.add("Ana"); // retorna false
-		fila.offer("Bia"); // LanÁa uma exceÁ„o
+		fila.offer("Bia"); // Lan√ßa uma exce√ß√£o
 		fila.add("Carlos");
 		fila.offer("Daniel");
 		fila.add("Rafaela");
 		fila.offer("Gui");
 		
-		// Peek e Element -> obter o prÛximo da fila (sem remover)
-		// DiferenÁa de comportamento ocorre
-		// Quando a fila est· vazia
+		// Peek e Element -> obter o pr√≥ximo da fila (sem remover)
+		// Diferen√ßa de comportamento ocorre
+		// Quando a fila est√° vazia
 		System.out.println(fila.peek()); //retorna null
 		System.out.println(fila.peek());
-		System.out.println(fila.element()); //lanÁa uma exceÁ„o
+		System.out.println(fila.element()); //lan√ßa uma exce√ß√£o
 		System.out.println(fila.element());
 		
-		// DiferenÁa È o comportamento ocorre
-		// quando a fila est· vazia
+		// Diferen√ßa e o comportamento ocorre
+		// quando a fila est√° vazia
 		System.out.println(fila.poll()); //retorna null
-		System.out.println(fila.remove()); // LanÁa uma exceÁ„o
+		System.out.println(fila.remove()); // Lan√ßa uma exce√ß√£o
 		System.out.println(fila.poll());
 		System.out.println(fila.poll());
 		System.out.println(fila.poll());

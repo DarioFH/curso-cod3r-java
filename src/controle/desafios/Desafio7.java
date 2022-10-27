@@ -10,14 +10,14 @@ public class Desafio7 {
 		int n = 0;
 		
 		do {
-			System.out.println("Informe um número: ");
+			System.out.println("Informe um nÃºmero: ");
 			n = Integer.parseInt(entrada.nextLine());
 			
 			if(n >= 0) {
 				soma += n;
 			}
 			
-			System.out.println("A soma dos números Informados é: "+soma);
+			System.out.println("A soma dos nÃºmeros Informados Ã©: "+soma);
 		} while (n >= 0);
 		
 		System.out.println("**************FIM******************");

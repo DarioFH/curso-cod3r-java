@@ -4,7 +4,7 @@ public class ValorVsReferencia {
 	public static void main(String[] args) {
 		
 		double a = 2;
-		double b = a; // atribuição por valor
+		double b = a; // atribuÃ­do por valor
 		
 		a++;
 		b--;
@@ -12,7 +12,7 @@ public class ValorVsReferencia {
 		System.out.println(a + " " + b);
 		
 		Data d1 = new Data(1,6, 2022);
-		Data d2 = d1; // atribuição por referência (Objeto)
+		Data d2 = d1; // atribuÃ­o por referÃªncia (Objeto)
 		
 		d1.dia = 31;
 		d2.mes = 12;

@@ -27,7 +27,7 @@ public class ConjuntoComportado {
 		nums.add(13);
 		nums.add(8);
 		
-		// nums.get(1); Não é possivel acessar pelo index
+		// nums.get(1); NÃ£o Ã© possivel acessar pelo index
 		
 		for(Integer num: nums ) {
 			System.out.println(num);

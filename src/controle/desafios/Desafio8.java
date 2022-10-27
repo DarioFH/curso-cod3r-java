@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Desafio8 {
 	public static void main(String[] args) {
 		Scanner entrada = new Scanner(System.in);
-		System.out.println("Please Informe a Word: ");
+		System.out.println("Please Inform a Word: ");
 		String word_informed = entrada.nextLine();
 		
 		int word_len = word_informed.length();

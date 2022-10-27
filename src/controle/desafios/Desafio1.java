@@ -6,15 +6,15 @@ public class Desafio1 {
 	public static void main(String[] args) {
 		Scanner entrada = new Scanner(System.in);
 
-		System.out.print("Informe um número: ");
+		System.out.print("Informe um nÃºmero: ");
 		int valor = Integer.parseInt(entrada.next());
 		
 		if(valor >= 0 && valor <= 10) {
-			String resp = valor % 2 == 0?"Par":"Ímpar";
+			String resp = valor % 2 == 0?"Par":"Ãmpar";
 			
-			System.out.printf("é um número %s", resp);
+			System.out.printf("Ã‰ um nÃºmero %s", resp);
 		}else {
-			System.out.println("Ops, número não se encaixa nos padrões");
+			System.out.println("Ops, nÃºmero nï¿½o se encaixa nos padrÃµes");
 		}
 
 		entrada.close();

@@ -22,13 +22,13 @@ public class Desafio6 {
 			} else {
 				if (numb_chances - i != 0) {
 					System.out.println("Que pena, vc errou, mas ainda tem " + (numb_chances - i) + " chances");
-					System.out.println(palpite < numb_rand ? "O número que vc informou é menor do que o correto"
-							: "O número que vc informou é maior do que o correto!");
+					System.out.println(palpite < numb_rand ? "O nï¿½mero que vc informou Ã© menor do que o correto"
+							: "O nï¿½mero que vc informou ï¿½ maior do que o correto!");
 				}
 			}
 		}
 
-		System.out.println(palpite == numb_rand ? "Parabéns, vc ganhou o jogo" : "Ops Fim de Jogo, mais sorte na próxima!");
+		System.out.println(palpite == numb_rand ? "ParabÃ©ns, vc ganhou o jogo" : "Ops Fim de Jogo, mais sorte na prÃ³xima!");
 		entrada.close();
 	}
 }

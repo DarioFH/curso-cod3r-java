@@ -6,7 +6,7 @@ public class Desafio {
 
 	public static void main(String[] args) {
 		Scanner entrada = new Scanner(System.in);
-		System.out.println("Olá, informe a quantidade de notas que irá inserir: ");
+		System.out.println("OlÃ¡, informe a quantidade de notas que irÃ¡ inserir: ");
 		int qtd_notas = Integer.parseInt(entrada.nextLine());
 
 		if (qtd_notas > 0) {
@@ -26,10 +26,10 @@ public class Desafio {
 				total += nota;
 			}
 			media = total / notas.length;
-			System.out.printf("Total de notas: %d%nSoma das notas: %.2f%nMédia final: %.2f", qtd_notas, total, media);
+			System.out.printf("Total de notas: %d%nSoma das notas: %.2f%nMÃ©dia final: %.2f", qtd_notas, total, media);
 
 		} else {
-			System.out.println("O número informado deve ser maior que 0");
+			System.out.println("O nÃºmero informado deve ser maior que 0");
 		}
 		entrada.close();
 	}

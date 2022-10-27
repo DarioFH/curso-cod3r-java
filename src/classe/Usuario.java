@@ -18,7 +18,7 @@ public class Usuario {
 		}
 	}
 	
-	// O hashcode ser· abordado em outra aula
+	// O hashcode ser√° abordado em outra aula
 	
 	@Override
 	public int hashCode() {

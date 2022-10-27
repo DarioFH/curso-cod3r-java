@@ -9,7 +9,7 @@ public class Desafio2 {
 		System.out.print("Informe o ano: ");
 		int ano = Integer.parseInt(entrada.next());
 		
-		String bissexto = ano % 4 == 0?"Bissexto":"Não Bissexto";
+		String bissexto = ano % 4 == 0?"Bissexto":"NÃ£o Bissexto";
 		
 		System.out.println(bissexto);
 

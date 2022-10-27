@@ -22,7 +22,7 @@ public class Mapa {
 		System.out.println(usuarios.entrySet());
 		
 		System.out.println(usuarios.containsKey(20));
-		System.out.println("Contém Rebeca: "+usuarios.containsValue("Rebeca"));
+		System.out.println("ContÃ©m Rebeca: "+usuarios.containsValue("Rebeca"));
 		
 		System.out.println("Pegando registro: "+usuarios.get(4));
 		System.out.println("Removendo chave 1:"+usuarios.remove(1));

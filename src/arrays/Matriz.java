@@ -23,7 +23,7 @@ public class Matriz {
 			for (int i = 0; i < qtd_alunos; i++) {
 				System.out.println("Informe as notas do aluno " + (i + 1) + ": ");
 				for (int j = 0; j < qtd_notas; j++) {
-					System.out.println("Nota número " + (j + 1) + ": ");
+					System.out.println("Nota nÃºmero " + (j + 1) + ": ");
 					notasDaTurma[i][j] = Double.parseDouble(entrada.nextLine().replace(',', '.'));
 				}
 			}
@@ -35,13 +35,13 @@ public class Matriz {
 					total += nota;
 					totalGeral += nota;
 				}
-				System.out.println("A média do aluno " + cont + ": " + (total / qtd_notas));
+				System.out.println("A mÃ©dia do aluno " + cont + ": " + (total / qtd_notas));
 			}
 
-			System.out.printf("A média geral da sala é de: %.2f", (totalGeral / (qtd_alunos * qtd_notas)));
+			System.out.printf("A mÃ©dia geral da sala Ã© de: %.2f", (totalGeral / (qtd_alunos * qtd_notas)));
 
 		} else {
-			System.out.println("Números Inseridos tem de ser maior que zero");
+			System.out.println("NÃºmeros Inseridos tem de ser maior que zero");
 		}
 
 		entrada.close();

@@ -7,7 +7,7 @@ public class Desafio5 {
 		Scanner entrada = new Scanner(System.in);
 
 		int contDivisores = 0;
-		System.out.println("Informe o número: ");
+		System.out.println("Informe o nÃºmero: ");
 		int n = Integer.parseInt(entrada.nextLine());
 		
 		for (int i = 2; i < n; i++) {
@@ -20,10 +20,10 @@ public class Desafio5 {
 		
 		switch(contDivisores) {
 		case 0:
-			System.out.println("Número: "+n+" é primo!");
+			System.out.println("NÃºmero: "+n+" Ã© primo!");
 			break;
 		default:
-			System.out.println("Número: "+n+" não é primo!");			
+			System.out.println("NÃºmero: "+n+" nÃ£o Ã© primo!");
 		}
 		
 

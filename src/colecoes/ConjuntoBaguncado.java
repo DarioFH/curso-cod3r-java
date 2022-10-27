@@ -16,16 +16,16 @@ public class ConjuntoBaguncado {
 		conjunto.add(1); 		// int -> Integer
 		conjunto.add('x'); 		// char -> Character
 		
-		System.out.println("Tamanho È: "+conjunto.size());
+		System.out.println("Tamanho √©: "+conjunto.size());
 		conjunto.add("teste");
-		System.out.println("Tamanho È: "+conjunto.size());
+		System.out.println("Tamanho √©: "+conjunto.size());
 		
 		System.out.println(conjunto.remove("Teste"));
 		System.out.println(conjunto.remove("teste"));
 		
 		System.out.println(conjunto.remove('x'));
 		
-		System.out.println("Tamanho È: "+conjunto.size());
+		System.out.println("Tamanho √©: "+conjunto.size());
 		
 		System.out.println(conjunto.contains('x'));
 		System.out.println(conjunto.contains(1));
@@ -39,7 +39,7 @@ public class ConjuntoBaguncado {
 		System.out.println(nums);
 		System.out.println(conjunto);
 		
-		//conjunto.addAll(nums); // Uni„o entre 2 conjuntos
+		//conjunto.addAll(nums); // Uni√£o entre 2 conjuntos
 		conjunto.retainAll(nums);
 		
 		conjunto.clear();

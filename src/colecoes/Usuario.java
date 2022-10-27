@@ -11,7 +11,7 @@ public class Usuario {
 	
 	@Override
 	public String toString() {
-		return "Meu nome é: "+this.nome+".";
+		return "Meu nome Ã©: "+this.nome+".";
 	}
 
 	@Override
